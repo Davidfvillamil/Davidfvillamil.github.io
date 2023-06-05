@@ -69,7 +69,7 @@ section{
 }
 
 .home-content h3{
-    font-size: 3.2rem;
+    font-size: 40px;
     font-weight: 700;
 }
 .home-content h3:nth-of-type(2){
@@ -80,7 +80,7 @@ span{
     color: var(--contrast-color);
 }
 .home-content h1{
-    font-size: 5.6rem;
+    font-size: 90px;
     font-weight: 700;
     line-height: 1.3;
 }
