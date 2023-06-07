@@ -15,6 +15,8 @@
 body{
     background-color: var(--back-ground-color);
     color: var(--text-color);
+    font-family: 'Quicksand',
+    sans-serif;
 }
 
 .header{
@@ -136,15 +138,81 @@ span{
 .about{
     background-color: var(--text-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
 }
-.text-about p{
+.about h2{
+    text-align: left;
+    line-height: 1.2;
+    color: var(--second-back-ground-color);
+    font-size: 3rem;
+}
+.about h3{
+    font-size: 1.5rem;
     color: var(--second-back-ground-color);
 }
-.text-about h3{
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.about p{
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem;
     color: var(--second-back-ground-color);
 }
-.video{
-    border-radius: 10%;
+.text-about{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .service {
+    flex: 1 1 20rem;
+    background-color: var(--second-back-ground-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--back-ground-color);
+}
+
+.service i{
+    font-size: 7rem;
+    color: var(--contrast-color);
+}
+
+.service h3{
+    font-size: 2.2rem;
+}
+
+.service p{
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+}
+
+.service-box-buton{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: var(--contrast-color);
+    border-radius: 10px;
+    box-shadow: 0 0 1rem;
+    font-size: 1.6rem;
+    color: var(--second-back-ground-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
 }
