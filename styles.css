@@ -304,3 +304,73 @@ span{
     font-size: 2rem;
     color: var(--second-back-ground-color);
 }
+
+.contact-section h2{
+    margin-bottom: 3rem;
+}
+
+.contact-section form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact-section form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.contact-section form .input-box input,
+.contact-section form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    background-color: var(--second-back-ground-color);
+    border-radius: 0.8rem;
+    margin: 0.7rem 0;
+    border: none;
+}
+
+.contact-section form .input-box input{
+    width: 49%;
+}
+
+.contact-section form textarea{
+    resize: none;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: var(--second-back-ground-color);
+}
+
+.footer-text p{
+    font-size: 1.2rem;
+}
+
+.footer-arrow a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    background: var(--contrast-color);
+    border-radius: 0.8rem;
+    transition: 0.5s ease;
+}
+
+.footer-arrow a:hover {
+    box-shadow: 0 0 1rem var(--contrast-color);
+}
+.footer-arrow a i{
+    font-size: 2rem;
+    color: var(--second-back-ground-color);
+}

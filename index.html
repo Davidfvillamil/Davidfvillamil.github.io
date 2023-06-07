@@ -14,7 +14,7 @@
 </head>
 <body>
     
-    <header class="header">
+    <header class="header" id="header">
         <a href="#" id="logo">Portafolio</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
@@ -22,12 +22,12 @@
         <nav class="nav-bar">
             <a href="#home" class="active">Home</a>
             <a href="#about" >acerca de mi</a>
-            <a href="#servicios" >Servicios</a>
-            <a href="#portafolio">Portafolio</a>
+            <a href="#services" >Servicios</a>
+            <a href="#portafolio-section">Portafolio</a>
         </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hola! soy</h3>
             <h1>David Villamil</h1>
@@ -53,7 +53,7 @@
         
     </section>
     
-    <section class="about">
+    <section class="about" id="about">
 
         <div class="video">
             <iframe width="700" height="394" src="https://www.youtube.com/embed/X_CQe_Rg-Lo?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -68,7 +68,7 @@
 
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <h2 class="heading">Mis <span>serivicios</span></h2>
 
         <div class="services-container">
@@ -95,7 +95,7 @@
         </div>
     </section>
 
-    <section class="portafolio-section">
+    <section class="portafolio-section" id="portafolio-section">
         <h2 class="heading">Projects</h2>
         <div class="portafolio-Container">
             <div class="portafolio-box">
@@ -127,6 +127,32 @@
 
         </div>
     </section>
+
+    <section class="contact-section" id="contact-section">
+        <h2 class="heading">contact <span>me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email adress">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email subjet">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="send message" class="boton-cv">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by David Villamil | All rights reserved</p>
+        </div>
+        <div class="footer-arrow">
+            <a href="#home"><i class='bx bx-arrow-from-bottom' ></i></a>
+        </div>
+    </footer>
 
     <script src="./logica.js"></script>
 </body>
