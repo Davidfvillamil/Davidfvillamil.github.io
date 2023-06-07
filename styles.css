@@ -188,6 +188,12 @@ span{
     border-radius: 2rem;
     text-align: center;
     border: 0.2rem solid var(--back-ground-color);
+    transition: .5s ease;
+}
+
+.services-container .service:hover{
+    border-color: var(--contrast-color);
+    transform: scale(1.1);
 }
 
 .service i{
@@ -215,4 +221,86 @@ span{
     letter-spacing: 0.1rem;
     font-weight: 600;
     transition: 0.5s ease;
+}
+
+
+
+.portafolio-section{
+    background-color: var(--second-back-ground-color);
+}
+
+.portafolio-section h2{
+    margin-bottom: 4rem;
+}
+
+.portafolio-Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.portafolio-Container .portafolio-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem var(--back-ground-color);
+    overflow: hidden;
+    display: flex;
+}
+
+.portafolio-box img{
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.portafolio-box img:hover{
+    transform: scale(1.1);
+}
+
+.portafolio-box .portafolio-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1),var(--contrast-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: 0.5s ease;
+}
+
+.portafolio-box:hover .portafolio-layer{
+    transform: translateY(0);
+}
+
+.portafolio-layer h4{
+    font-size: 3rem;
+
+}
+
+.portafolio-layer p{
+    font-size: 1.2rem;
+    margin: 0.3rem 0 1;
+}
+
+.portafolio-layer button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+    border-color: var(--text-color);
+    border: none;
+}
+
+.portafolio-layer button i{
+    font-size: 2rem;
+    color: var(--second-back-ground-color);
 }
