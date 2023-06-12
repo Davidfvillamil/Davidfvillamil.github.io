@@ -45,12 +45,26 @@ window.onscroll = () =>{
 
 }
 
+
+// Sección que hace que se revelen los objetos cuando se carga la pagina. 
 ScrollReveal({ 
-    reset: true,
+    //reset: true,
     distance: '80px',
     duration: 2000,
     dilay: 200
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
+ScrollReveal().reveal('.contenedor-de-circulos, .services-container, .portafolio-box, .contact-section form', { origin: 'bottom'});
+ScrollReveal().reveal('.home-content h1, .video', { origin: 'left'});
+ScrollReveal().reveal('.home-content p, .text-about', { origin: 'right'});
 
+// Sección para cambiar las profesiones en la Bio 
+
+const profesiones = new Typed('.profesiones',{
+    strings: ['Full stack developer', 'Emprendedor', 'Media producer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 100,
+    loop: true
+})

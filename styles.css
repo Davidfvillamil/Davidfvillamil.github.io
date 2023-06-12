@@ -120,6 +120,45 @@ span{
 .imagen-home img{
     width: 35vw;
     border-radius: 20%;
+    
+    position: relative;
+}
+
+
+
+.contenedor-de-circulos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-de-circulos .circulo{
+    background-color: var(--contrast-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-3rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.circulo-1{
+    align-self: flex-end;
+    position: relative;
+    top: 70px;
+}
+.circulo-2{
+    align-self: flex-start;
+    position: relative;
+    top: 70px;
 }
 
 .boton-cv{
