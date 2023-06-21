@@ -334,7 +334,7 @@ span{
     margin: 0.3rem 0 1;
 }
 
-.portafolio-layer button{
+.portafolio-layer a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -346,9 +346,9 @@ span{
     border: none;
 }
 
-.portafolio-layer button i{
+.portafolio-layer a i{
     font-size: 2rem;
-    color: var(--second-back-ground-color);
+    color: var(--back-ground-color);
 }
 
 .contact-section h2{
