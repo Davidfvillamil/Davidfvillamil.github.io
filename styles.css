@@ -111,6 +111,7 @@ span{
     color: var(--contrast-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.5s ease;
+    text-decoration: none;
 }
 
 .social-media-home a:hover{
@@ -347,9 +348,11 @@ span{
 }
 
 .portafolio-layer a i{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--back-ground-color);
+    text-decoration: none !important;
 }
+
 
 .contact-section h2{
     margin-bottom: 3rem;
@@ -420,6 +423,35 @@ span{
     font-size: 2rem;
     color: var(--second-back-ground-color);
 }
+footer i{
+    font-size: 1.5rem;
+}
+
+.texto-footer h5{
+    color: var(--second-back-ground-color) !important
+}
+
+.texto-footer p a{
+    text-decoration: none !important;
+}
+.texto-footer p a:hover{
+    color: var(--contrast-color) !important;
+}
+
+.github{
+    text-decoration: none;
+    color: var(--second-back-ground-color) !important;
+}
+
+.github:hover{
+    
+    color: var(--contrast-color) !important;
+}
+
+.iconos i{
+    color: var(--back-ground-color) !important;
+}
+
 
 @media (max-width: 1200px) {
     html{

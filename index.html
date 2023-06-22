@@ -8,7 +8,7 @@
     
     <title>Portafolio</title>
 
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles.css">
 </head>
@@ -37,7 +37,7 @@
         
 
             <div class="social-media-home">
-                <a href="https://www.youtube.com/@davidvillamil3387"><i class='bx bxl-youtube' ></i></a>
+                <a href="https://www.youtube.com/@davidvillamil3387"><i class='bx bxl-youtube'></i></a>
                 <a href="https://www.instagram.com/eladultoacargo/"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://twitter.com/Pipefinsoul"><i class='bx bxl-twitter' ></i></a>
                 <a href="https://www.linkedin.com/in/david-felipe-villamil-mart%C3%ADnez-09404b147/"><i class='bx bxl-linkedin' ></i></a>
@@ -112,7 +112,7 @@
                 <div class="portafolio-layer">
                     <h4>PacMan</h4>
                     <p>Ejercicio de manipulación del DOM en donde creamos elementos en el Browser y los hacemos mover a una velocidad aleatoria</p>
-                    <a href="https://github.com/Davidfvillamil/Pacman"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://github.com/Davidfvillamil/Pacman" class="link-proyectos"><i class='bx bx-link-external' ></i></a>
                 </div>
             </div>
 
@@ -154,18 +154,102 @@
         </form>
     </section>
 
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by David Villamil | All rights reserved</p>
-        </div>
-        <div class="footer-arrow">
-            <a href="#home"><i class='bx bx-arrow-from-bottom' ></i></a>
+    <!--Sección del footer hecha con Bootstrap5-->
+    <footer class="bg-light text-dark pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            
+            <div class="row text-center text-md-start">
+                
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 texto-footer">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">David Villamil</h5>
+                    <hr class="mb-4">
+                    <p>
+                        Emprendedor apasionado por la tecnología, las startups y el desarrollo
+                    </p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 texto-footer">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Servicios</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="#services" class="text-dark">Desarrollo de web apps</a>
+                    </p>
+                    <p>
+                        <a href="#services" class="text-dark">Creación de media</a>
+                    </p>
+                    <p>
+                        <a href="#services" class="text-dark">Desarrollo de negocios</a>
+                    </p>
+                
+
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 texto-footer">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Proyectos</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="https://github.com/Davidfvillamil/Pacman" class="text-dark">Pacman</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Davidfvillamil/Eyes_exercice" class="text-dark">Move the eyes</a>
+                    </p>
+                    <p>
+                        <a href="https://github.com/Davidfvillamil/Real_time__bus_tracker" class="text-dark">Bus tracker</a>
+                    </p>
+                    
+
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 texto-footer">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Contacto</h5>
+                    <hr class="mb-4">
+                    <p>
+                        <i class='bx bxs-edit-location fas fas-home me-3'></i> Bogotá,Colombia
+                        
+                    </p>
+                    <p>
+                        <i class='bx bx-envelope fas fas-home me-3'></i> David@gmail.com
+                        
+                    </p>
+                    <p>
+                        <i class='bx bxl-github fas fas-home me-3'></i> <a href="https://github.com/Davidfvillamil" class="github">Github</a>
+                    </p>
+
+                </div>
+
+                <hr class="mb-4">
+
+                <div class=" text-center mb-2">
+                    <p>Copyright todos los derechos reservados</p>
+        
+                </div>
+
+                <div class="text-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/eladultoacargo/?hl=es-la" class="iconos"><i class='bx bxl-instagram fab fa-instagram' ></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/Pipefinsoul" class="iconos"><i class='bx bxl-twitter' ></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/@davidvillamil3387" class="iconos"><i class='bx bxl-youtube' ></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/david-felipe-villamil-mart%C3%ADnez-09404b147/" class="iconos"><i class='bx bxl-linkedin-square' ></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
         </div>
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="./logica.js"></script>
