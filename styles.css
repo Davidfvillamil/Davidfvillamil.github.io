@@ -339,18 +339,24 @@ span{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     background: var(--text-color);
-    border-radius: 50%;
+    border-radius: 20%;
     border-color: var(--text-color);
     border: none;
+    text-decoration: none;
 }
 
 .portafolio-layer a i{
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: var(--back-ground-color);
     text-decoration: none !important;
+}
+
+.Links-repo-probarlo{
+    display: flex;
+    gap: 10px;
 }
 
 
