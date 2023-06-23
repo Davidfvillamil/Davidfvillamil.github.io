@@ -68,3 +68,7 @@ const profesiones = new Typed('.profesiones',{
     backDelay: 100,
     loop: true
 })
+
+function sendMessage(){
+    alert('Mensaje enviado exitosamente!')
+}
