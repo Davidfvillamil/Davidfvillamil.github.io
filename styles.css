@@ -293,8 +293,9 @@ span{
     box-shadow: 0 0 1rem var(--back-ground-color);
     overflow: hidden;
     display: flex;
-    width: 30rem;
-    height: 24rem;
+    width: 25rem;
+    height: 19rem;
+    justify-content: space-evenly;
 }
 .video{
     object-fit: cover;
