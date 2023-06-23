@@ -293,6 +293,11 @@ span{
     box-shadow: 0 0 1rem var(--back-ground-color);
     overflow: hidden;
     display: flex;
+    width: 30rem;
+    height: 24rem;
+}
+.video{
+    object-fit: cover;
 }
 
 .portafolio-box img{
