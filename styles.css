@@ -548,8 +548,22 @@ footer i{
     }
 
     .portafolio-Container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+
     }
+    .portafolio-box{
+        width: 50rem;
+        height: 40rem;
+    }
+
+    .portafolio-box video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+
 
     form{
         margin-bottom: 60px;
@@ -558,12 +572,23 @@ footer i{
 
 }
 
-@media(max-width:450px){
+@media(max-width:400px){
     html{
-        font-size: 50%;
+        font-size: 70%;
+    }
+    .contenedor-de-circulos .circulo{
+        display: block;
+    }
+    .video iframe{
+        width: 100%;
     }
     .contact-section form .input-box input{
         width: 100%;
     }
+    
+    .contenedor-de-circulos .circulo{
+        display: block;
+    }
+
 }
 
