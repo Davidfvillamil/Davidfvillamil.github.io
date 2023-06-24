@@ -490,6 +490,9 @@ footer i{
     .footer {
         padding: 2rem 3%;
     }
+    .video iframe{
+        width: 100%;
+    }
 }
 
 @media (max-width: 764px) {
@@ -563,6 +566,9 @@ footer i{
         object-fit: cover;
     }
     
+    .video iframe{
+        width: 100%;
+    }
 
 
     form{
@@ -572,7 +578,7 @@ footer i{
 
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     html{
         font-size: 70%;
     }
