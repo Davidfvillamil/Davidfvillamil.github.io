@@ -10,13 +10,13 @@
     --second-back-ground-color: #232946;
     --text-color: #fff;
     --contrast-color : #ffff6a;
+    
 }
 
 body{
     background-color: var(--back-ground-color);
     color: var(--text-color);
-    font-family: 'Quicksand',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -51,6 +51,7 @@ body{
     margin-left: 4rem;
     text-decoration: none;
     transition: .3s;
+    
 }
 
 .nav-bar a:hover,
