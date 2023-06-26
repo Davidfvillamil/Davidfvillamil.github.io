@@ -479,6 +479,10 @@ footer i{
     color: var(--back-ground-color) !important;
 }
 
+.correo-electronico-footer{
+    display: flex;
+}
+
 
 
 @media (max-width: 1200px) {
