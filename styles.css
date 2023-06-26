@@ -481,6 +481,7 @@ footer i{
 
 .correo-electronico-footer{
     display: flex;
+    justify-content: center;
 }
 
 
