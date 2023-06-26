@@ -16,8 +16,8 @@
 body{
     background-color: var(--back-ground-color);
     color: var(--text-color);
-    font-family: 'Quicksand',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .header{
@@ -75,7 +75,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 18px;
 }
 
 .home-content h3{
